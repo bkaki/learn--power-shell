@@ -1,1 +1,1 @@
-#Learn Power shell
+#Learn Powershell
