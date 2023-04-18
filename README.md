@@ -13,4 +13,4 @@ How to write shell scripting?
 7. functions
 8. quotes
 9. sed editor
-10. 
+10. changes
