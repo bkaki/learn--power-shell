@@ -1,14 +1,8 @@
 a=10
 name=DevOps
 
-b=20
-name=Bhaskar
-
 # Print Variable
 echo a = $a
-echo name = ${name}
-
-echo b = $b
 echo name = ${name}
 
 #
