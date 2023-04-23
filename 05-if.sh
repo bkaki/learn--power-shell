@@ -4,7 +4,7 @@ quantity=$2
 
 if [ "$fruit_name" == "mango" ]
 then
-  echo Mango Quantity - $quantity
+  echo Mango quantity - $quantity
 else
   echo Fruit does not exist
 fi
