@@ -13,7 +13,7 @@ function_name
 
 function_name1() {
 
-    echo hello Argument = $1
+    echo first Argument = $1
     echo Second Argument = $2
     echo All Arguments = $*
     echo No Of Arguments = $#
