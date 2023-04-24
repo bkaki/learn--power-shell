@@ -1,3 +1,4 @@
+
 #!/bin/bash
 USERID=$(id -u)
 
@@ -15,4 +16,3 @@ yum install git -y
   else
     echo "installation git is success"
   fi
-
