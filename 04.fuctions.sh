@@ -19,3 +19,4 @@ fucntion_name() {
     echo No Of Arguments = $#
   }
 
+function_name
