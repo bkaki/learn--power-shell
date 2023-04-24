@@ -6,4 +6,4 @@
     exit
   fi
   }
-  func_status_check $?
+  func_status_check
