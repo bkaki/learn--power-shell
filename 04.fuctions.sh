@@ -12,7 +12,7 @@ function_name
 ### We can send inputs to the function and we can access them with special variables $1-$n, $*, $#
 
 fucntion_name() {
- name=bhaskar
+ a=234
     echo First Argument = $1
     echo Second Argument = $2
     echo All Arguments = $*
