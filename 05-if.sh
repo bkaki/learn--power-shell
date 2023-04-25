@@ -18,3 +18,5 @@ if [ "$quantity" -gt 100 ];then
 else
   echo mango price -1$
 fi
+
+
