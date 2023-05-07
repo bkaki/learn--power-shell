@@ -23,4 +23,3 @@ echo Second Argument - $2
 echo All Argument - $*
 echo No of Arguments - $#
 
-
