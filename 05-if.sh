@@ -19,7 +19,7 @@ fi
   #echo mango price - 0.5$
 #else
   #echo mango price -1$
-3fi
+#f1
 
 
 #
