@@ -6,12 +6,12 @@ quantity=$2
 # exit
 #fi
 #
-#if [ "$fruit_name" == "mango" ]
-#then
-#  echo Mango quantity - $quantity
-#else
-#  echo Fruit does not exist
-#fi
+if [ "$fruit_name" == "mango" ]
+then
+  echo Mango quantity - $quantity
+else
+  echo Fruit does not exist
+fi
 
 
 
