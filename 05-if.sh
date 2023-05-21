@@ -14,8 +14,9 @@ else
 fi
 
 
-#if [ "$quantity" -gt 100 ];then
-#  echo mango price - 0.5$
-#else
-#  echo mango price -1$
-#f1
+if [ "$quantity" -gt 100 ]
+then
+  echo mango price - 0.5$
+else
+  echo mango price -1$
+f1
