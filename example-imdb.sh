@@ -15,6 +15,6 @@ percent=$(curl -s  https://www.themoviedb.org/movie/603692-john-wick-chapter-4 |
 
 if [ "$percent" -ge 70 ]; then
   echo movie is good
-else
+  else
   echo movie is bad
 fi
