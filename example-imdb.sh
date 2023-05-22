@@ -9,7 +9,9 @@ if [ -z "$input"]; then
   echo input movie name missing
 fi
 
-persent=$(curl -s  https://www.themoviedb.org/movie/603692-john-wick-chapter-4 | grep user_score_chart | xargs -n1 | grep data-percent | awk -F = '{print $2}' | awk -F . '{print $1}')
+percent=$(curl -s  https://www.themoviedb.org/movie/603692-john-wick-chapter-4 | grep user_score_chart | xargs -n1 | grep data-percent | awk -F = '{print $2}' | awk -F . '{print $1}')
+
+ echo percent - $percent
 
 if [ "$percent" -ge 70 ]; then
   echo movie is good
