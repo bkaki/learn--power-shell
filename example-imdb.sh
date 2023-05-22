@@ -5,7 +5,7 @@
 input=$1
 
 
-if [ -z "$input"]; then
+if [ -z "$input" ]; then
   echo input movie name missing
 fi
 
